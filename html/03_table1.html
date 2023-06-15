@@ -3,38 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <h1>Table 4X4</h1>
-    <table border="1">
+    <h1>table Colspan Rowspan</h1>
+    <table border="1" height="100px" width="100%">
         <tr>
-            <th>Sr.No</th>
-            <th>Roll.No</th>
-            <th>Name</th>
-            <th>Team</th>
+            <td>Column1</td>
+            <td>Column12</td>
+            <td>Column3</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>1001</td>
-            <td>John</td>
-            <td>Red</td>
+            <td rowspan="2">Column1</td>
+            <td>Column12</td>
+            <td>Column3</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>1002</td>
-            <td>Peter</td>
-            <td>Blue</td>
+            <td>Column12</td>
+            <td>Column3</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>1003</td>
-            <td>Hery</td>
-            <td>Pink</td>
+            <td colspan="3">Column12</td>
         </tr>
+
     </table>
 </body>
 
