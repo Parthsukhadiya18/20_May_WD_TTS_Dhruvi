@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        div{
+            position: relative;
+            
+        }
+        img{
+            height: 100px;
+            width:100px
+        }
+        .img1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 4;
+        }
+        .img2{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+        }
+        .img3{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index:5;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="" class="img1">
+        <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="img2">
+        <img src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="img3">
+
+    </div>
+</body>
+</html>
